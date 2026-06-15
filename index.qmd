@@ -1,0 +1,20 @@
+---
+knitr:
+  opts_chunk: 
+    collapse: true
+execute: 
+  echo: false
+page-layout: full
+include-in-header: 
+  - _includes/fontawesome-2up.html
+title: "Welcome to the DDI Talent website!"
+listing:
+  contents:
+    - "about.qmd"
+    - "people.qmd"
+    - "resources.qmd"
+    - "teaching.qmd"
+    - "contact.qmd"
+  sort: false
+  type: grid
+---
