@@ -7,7 +7,7 @@ execute:
 page-layout: full
 include-in-header: 
   - _includes/fontawesome-2up.html
-title: "Welcome to the DDI Talent website!"
+title: "We are the team delivering Data Science for Health and Social Care courses within Edinburgh Medical School (University of Edinburgh). Here you will find information about our courses, about us and resources we're creating."
 listing:
   contents:
     - "about.qmd"
