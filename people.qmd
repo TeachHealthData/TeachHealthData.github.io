@@ -19,7 +19,8 @@ title-block-banner: false
 execute: 
   echo: false
 ---
- ![](images/favicon.png){.profile-pic fig-alt="logo, a simple graph resembling Edinburgh skyline" fig-align="center" width="33%"}
+![](images/team.png){.profile-pic fig-alt="TODO" fig-align="center" width="33%"}
+
  
 # [PEOPLE]{.second-color}
-Here you will find useful information about the roles each one of the team members has. 
+Our multidisciplinary team is made of Data Science teachers from across the university (Medicine, Psychology, Business and Math). Teaching career changers is our main focus, as we explore how Data can transform Health as it is anchored the social and economical realities of the world.

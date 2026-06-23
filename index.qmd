@@ -7,14 +7,17 @@ execute:
 page-layout: full
 include-in-header: 
   - _includes/fontawesome-2up.html
-title: "We are the team delivering Data Science for Health and Social Care courses within Edinburgh Medical School (University of Edinburgh). Here you will find information about our courses, about us and resources we're creating."
+title: "Data Science for Health and Social Care at the University of Edinburgh"
 listing:
   contents:
-    - "about.qmd"
+    # - "about.qmd"
     - "people.qmd"
     - "resources.qmd"
     - "teaching.qmd"
-    - "contact.qmd"
-  sort: false
+    # - "contact.qmd"
+  sort: falsex
   type: grid
+  grid-columns: 3
 ---
+
+We are the team delivering Data Science for Health and Social Care courses within Edinburgh Medical School (University of Edinburgh). Here you will find information about our courses, about us and resources we're creating.
