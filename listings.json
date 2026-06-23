@@ -102,11 +102,9 @@
   {
     "listing": "/index.html",
     "items": [
-      "/about.html",
       "/people.html",
       "/resources.html",
-      "/teaching.html",
-      "/contact.html"
+      "/teaching.html"
     ]
   }
 ]
