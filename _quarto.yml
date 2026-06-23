@@ -18,16 +18,16 @@ website:
     #logo: someicon-logo-light.png[TODO]
     title: "<span class='icon-line'></span>TEACH<span class='icon-line'></span>HEALTH<span class='icon-line'></span>DATA<span class='icon-line'></span>"
     right:
-      - text: about
-        href: about.qmd
+      # - text: about
+      #   href: about.qmd
       - text: people
         href: people.qmd
-      - text: resources
-        href: resources.qmd
       - text: teaching
         href: teaching.qmd
-      - text: contact
-        href: contact.qmd
+      - text: resources
+        href: resources.qmd
+      # - text: contact
+      #   href: contact.qmd
       #- icon: uni-website[TODO?]
       #  href: https://github.com/DDI-Talent/
       - icon: github

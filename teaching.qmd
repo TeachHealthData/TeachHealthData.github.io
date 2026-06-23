@@ -25,10 +25,10 @@ title-block-banner: false
 execute: 
   echo: false
 ---
-![](images/favicon.png){.profile-pic fig-alt="logo, a simple graph resembling Edinburgh skyline" fig-align="center" width="33%"}
+![](images/teaching.png){.profile-pic fig-alt="TODO" fig-align="center" width="33%"}
 
 # [TEACHING]{.second-color}
-Here you can take a look at our portfolio of courses. 
+Our courses widen the landing strip for new arrivals into the Data Science We cover foundational topics in thorough and inclusive ways, as well offer deep-dives into specialist subjects: Statistics, Programming in R and Python, Text Analysis, Visualisation and more.
 
 ## Master in Data Science for Health and Social Care
 

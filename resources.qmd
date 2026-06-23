@@ -17,7 +17,7 @@ title-block-banner: false
 execute: 
   echo: false
 ---
-![](images/favicon.png){.profile-pic fig-alt="logo, a simple graph resembling Edinburgh skyline" fig-align="center" width="33%"}
+![](images/resources.png){.profile-pic fig-alt="TODO" fig-align="center" width="33%"}
 
 # [RESOURCES]{.second-color}
-Interested in our courses, workshops, and events? Take a look at our variety of resources. 
+We love sharing our innovative learning in our books, software tools and videos. Read about innitiatives and resoutces we created to enable other educators and learners to flourish.
