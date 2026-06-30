@@ -835,8 +835,8 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Data Science for Health and Social Care at the University of Edinburgh",
+    "title": "DDI Talent Team Website",
     "section": "",
-    "text": "We are the team delivering Data Science for Health and Social Care courses within Edinburgh Medical School (University of Edinburgh). Here you will find information about our courses, about us and resources we’re creating.\n\n\n\n\n\n\n\n\n\n\n\n\nPEOPLE\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRESOURCES\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTEACHING\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\nReuseCC BY-SA 4.0"
+    "text": "rgh — knitr: opts_chunk: collapse: true execute: echo: false page-layout: full include-in-header: - _includes/fontawesome-2up.html title: “Edinburgh Medical School (University of Edinburgh) - Data Science Team” listing: contents: # - “about.qmd” - “people.qmd” - “resources.qmd” - “teaching.qmd” # - “contact.qmd” sort: falsex type: grid grid-columns: 3 —\nWe are the team within Edinburgh Medical School (University of Edinburgh) delivering Data Science for Health and Social Care courses within Edinburgh Medical School (University of Edinburgh). Here you will find information about our courses, about us and resources we’re creating.\n\n\n\nReuseCC BY-SA 4.0"
   }
 ]
