@@ -3,38 +3,26 @@ title: Data Ethics in Health and Social Care
 description: |
   **Delivery mode:** Online (distance learning) 
   
-  **Start date:** Years 1, 2 and 3 | Term 1 - Block 3
+  **Duration:** 5 weeks
   
   **Credits:** 10 
-site-url: https://shortcourses.ed.ac.uk/course/basics-of-practical-data-science-for-health-social-care
+site-url: https://www.drps.ed.ac.uk/current/dpt/cxhein11059.htm
 image: uoe.jpg
 #image-alt: |
 categories: [ethics, context, postgraduate]
 open-graph: true
 twitter-card: true
-# will inherit title, description, image
-# to change ANYTHING about card, need to fill in EVERYTHING below
-#  title: |
-#  description: |
-#  image: |
-#  image-alt: |
-#  defaults to 500 x 500 summary: uncomment lines below for large card
-#  image-width: 600 
-#  image-height: 314
-#  card-style: summary_large_image 
-#  image-width: 500
-#  image-height: 500
-#  card-style: summary
 draft: false
 ---
-::: {.profile-image-float-left}
-![](.jpg){fig-align="centre"}
-:::
 
 ## About this course
 
+Data science is revolutionising how health, social and care services are delivered. However, the use of service user data in health and social care and safe sharing of datasets within and across care systems creates ethical challenges and data ownership issues. Therefore, a balance must be struck between a desire for privacy and the need to improve the management of health and social care systems. This course introduces the ethical and data ownership issues around the use, collection, storage and utilisation of service user data from and across health, social and care service institutions.
 
+The course develops a framework to understand the ethical issues of collecting and managing health, social and care service user data. Students will be introduced to ethical codes of practice and accountability and examine how service user data are ethically used in the health and social care setting and the impact of unethical practice. The course also covers aspects of data ownership.
+Key issues in data ethics and ownership, with case studies and questions, will be presented to students that prompt active self-reflection and appraisal and provide students with an opportunity to give and receive constructive feedback. Students taking this course do not need to have any prior exposure to data ethics nor ownership.
  
-## Assessment
- 
+## Programming
+
+No Programming 
 
