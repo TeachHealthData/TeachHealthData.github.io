@@ -1,11 +1,9 @@
 ---
 title: Introduction to Statistics in Health and Social Care
 description: |
-  **Delivery mode:** Online (distance learning) 
+  **Online** (distance learning)
   
-  **Duration:** 5 weeks
-  
-  **Credits:** 10 
+  **Duration:** 5 weeks - **Credits:** 10 
 site-url: https://www.drps.ed.ac.uk/current/dpt/cxhein11039.htm
 image: uoe.jpg
 #image-alt: |

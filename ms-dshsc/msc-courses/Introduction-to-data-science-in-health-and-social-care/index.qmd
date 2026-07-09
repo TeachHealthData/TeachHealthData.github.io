@@ -1,11 +1,9 @@
 ---
 title: Introduction to Data Science in Health and Social Care
 description: |
-  **Delivery mode:** Online (distance learning) 
+  **Online** (distance learning)
   
-  **Duration:** 10 weeks
-  
-  **Credits:** 20 
+  **Duration:** 10 weeks - **Credits:** 20 
 site-url: https://shortcourses.ed.ac.uk/course/basics-of-practical-data-science-for-health-social-care
 image: uoe.jpg
 #image-alt: |

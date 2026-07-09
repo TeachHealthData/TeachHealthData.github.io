@@ -19,9 +19,6 @@ open-graph: true
 twitter-card: true
 draft: false
 ---
-::: {.profile-image-float-left}
-![](jason-leung-ncLdDcvrcfw-unsplash.jpg){fig-align="centre"}
-:::
 ## About the course
 
 ## Courses

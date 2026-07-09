@@ -1,11 +1,9 @@
 ---
 title: Introduction to Databases and Information Systems
 description: |
-  **Delivery mode:** Online (distance learning) 
+  **Online** (distance learning)
   
-  **Duration:** 5 weeks
-  
-  **Credits:** 10 
+  **Duration:** 5 weeks - **Credits:** 10 
 site-url: https://www.drps.ed.ac.uk/current/dpt/cxhein11048.htm
 image: uoe.jpg
 #image-alt: |

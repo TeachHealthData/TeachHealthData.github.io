@@ -1,11 +1,9 @@
 ---
 title: Data types and structures in R and Pyhon
 description: |
-  **Delivery mode:** Online (distance learning) 
- 
-  **Duration:** 5 weeks
+  **Online** (distance learning)
   
-  **Credits:** 10 
+  **Duration:** 5 weeks - **Credits:** 10 
 site-url: https://www.drps.ed.ac.uk/current/dpt/cxhein11068.htm
 image: uoe.jpg
 #image-alt: |

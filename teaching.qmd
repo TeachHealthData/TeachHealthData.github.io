@@ -15,6 +15,7 @@ listing:
     categories: true
     sort-ui: true
     filter-ui: true
+    sort: "featured"
     feed: 
       categories: [R, Quarto]
 page-layout: full

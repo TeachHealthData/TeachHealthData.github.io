@@ -14,10 +14,8 @@ course-format: [PG, UG, short-course]
 open-graph: true
 twitter-card: true
 draft: false
+featured: true
 ---
-::: {.profile-image-float-left}
-![](jason-leung-ncLdDcvrcfw-unsplash.jpg){fig-align="centre"}
-:::
 ## About the course
 
 Explore the fundamentals of Natural Language Processing (NLP), a key AI branch focused on interpreting and analysing human language. This course highlights NLP’s growing role in health and social care, where vast text data, from electronic health records to medical literature and social media, offers rich insights. Learn technical skills with cutting-edge NLP tools and develop a critical understanding of the ethical and social implications of handling text data. Spread across six chapters, the course combines theory and practice to prepare you for the rapidly evolving field of NLP in health, care, academia, and industry. 
