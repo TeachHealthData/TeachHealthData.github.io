@@ -2,6 +2,5 @@
 title: "Angelo Ercia"
 subtitle: "Teaching Fellow"
 tier: 7.5
-image: ../../images/uoe.jpg
-
+image: angelo-ercia.jpg
 ---

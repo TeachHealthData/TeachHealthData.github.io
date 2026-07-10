@@ -2,5 +2,5 @@
 title: "Karolina Gibson-Bajbuz"
 subtitle: "Programme Administrator"
 tier: 7
-image: ../../images/uoe.jpg
+image: karolina-gibson-bajbuz.jpg
 ---

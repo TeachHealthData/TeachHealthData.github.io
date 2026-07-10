@@ -1,0 +1,6 @@
+---
+title: "Stewart Smith"
+subtitle: "UG Programme Administrator"
+tier: 7
+image: ../../images/uoe.jpg
+---
