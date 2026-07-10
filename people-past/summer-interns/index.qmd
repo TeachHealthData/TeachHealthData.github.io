@@ -1,0 +1,8 @@
+---
+title: "Summer Interns"
+subtitle: "Nicola Burns, Maha Arif, Leo Jolly, Stan Clark, Syjil Ramjuthan, Claudia Earl"
+tier: 3
+image: ../../images/uoe.jpg
+draft: false
+---
+
