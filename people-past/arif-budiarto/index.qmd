@@ -1,0 +1,9 @@
+---
+title: "Arif Budiarto"
+subtitle: "Teaching Assistant"
+image: arif-budiarto.jpg
+tier: 7
+draft: false
+---
+
+![](arif-budiarto.jpg){fig-align="center"}

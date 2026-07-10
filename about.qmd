@@ -7,11 +7,9 @@ listing:
   table-striped: true
   table-hover: true
   fields: [image, title, course-format]
-  categories: true
-  sort-ui: true
-  filter-ui: true
   feed: 
     categories: [R, Quarto]
+toc: false
 page-layout: full
 title-block-banner: false
 #knitr:

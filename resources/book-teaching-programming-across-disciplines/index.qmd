@@ -1,0 +1,10 @@
+---
+title: Book - Teaching Programming across Disciplines
+description: |
+  Book we co-created, with 36 chapters written by 75 authors (Open Access)
+image: book-logo.png
+---
+
+
+
+

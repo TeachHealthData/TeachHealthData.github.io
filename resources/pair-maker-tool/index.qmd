@@ -1,0 +1,12 @@
+---
+title: Pair Programming Pair Maker
+description: |
+  Tool to create perfect pair-programming groups.
+image: pairs-maker.png
+draft: false
+---
+
+[Course selection Tool](https://ddi-talent.shinyapps.io/pair-up/)
+
+Created by John Wilson and Pawel Orzechowski based on a prototype created with  with Nicola Burns and Keith Douglas
+

@@ -1,11 +1,12 @@
 ---
 title: Basics of Practical Data Science for Health and Social Care
+tier: 9
 description: |
   **Delivery mode:** Online (self-paced independent learning) 
   
   **Start date:** Anytime 
   
-  **Cost:** £295.00
+  **Cost:** £195.00
   
   **Duration:** 12 weeks 
 site-url: https://shortcourses.ed.ac.uk/course/basics-of-practical-data-science-for-health-social-care
@@ -15,24 +16,9 @@ categories: []
 course-format: [PG, UG, short-course]
 open-graph: true
 twitter-card: true
-# will inherit title, description, image
-# to change ANYTHING about card, need to fill in EVERYTHING below
-#  title: |
-#  description: |
-#  image: |
-#  image-alt: |
-#  defaults to 500 x 500 summary: uncomment lines below for large card
-#  image-width: 600 
-#  image-height: 314
-#  card-style: summary_large_image 
-#  image-width: 500
-#  image-height: 500
-#  card-style: summary
 draft: false
+featured: true
 ---
-::: {.profile-image-float-left}
-![](medical-banner-with-doctor-working-laptop.jpg){fig-align="centre"}
-:::
 
 ## About the course
 
@@ -42,6 +28,6 @@ Participants will be guided through setting up a Posit Cloud account to use RStu
 
 By the end of this course, participants will be able to independently explore, clean, visualise, and interpret datasets, supporting evidence-based decision-making in their professional practice.
 
-For more information and enrollment options, please click [here](https://shortcourses.ed.ac.uk/course/basics-of-practical-data-science-for-health-social-care)
+[More information and enrollment options](https://shortcourses.ed.ac.uk/course/basics-of-practical-data-science-for-health-social-care)
 
 *Course [image](https://www.freepik.com/free-photo/medical-banner-with-doctor-working-laptop_30555907.htm#fromView=search&page=1&position=0&uuid=54e40506-cb02-465c-8a3b-b138b4b0739c&query=data+science+healthcare), 2025 by Freepick* 

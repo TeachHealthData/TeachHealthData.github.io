@@ -1,13 +1,14 @@
 ---
 title: "Emiliano Ariel Videla Rodríguez"
-subtitle: "Teaching Co-ordinator"
+subtitle: "Teaching Coordinator"
 description: |
   All I know is that I know nothing
-author: 
-  name: "Teaching Co-ordinator"
+image: emiliano-videla.jpg
+tier: 6
 ---
-![](EAVR.jpg){fig-align="centre"}
-
+::: {.profile-image-float-left}
+![](emiliano-videla.jpg){fig-align="centre"}
+:::
 ## Background
 
 Emiliano is a teaching co-ordinator at the Edinburgh Medical School. He did an integrated master degree in biological sciences at the Universidad Nacional de Córdoba, Argentina. He did his PhDs at the Universidad Nacional de Córdoba (Argentina) and the Universitat de Lleida (Spain). During his academic career, he speciliased himself in statistical programming and computational biology, with focus on Bayesian Networks as graphical expert systems to facilitate decision making. 

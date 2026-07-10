@@ -1,5 +1,6 @@
 ---
 title: Data Ethics for Health and Social Care
+tier: 6
 description: |
   **Delivery mode:** Online (self-paced independent learning)
   

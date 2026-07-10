@@ -1,0 +1,8 @@
+---
+title: "Karim Rivera Lares"
+subtitle: "Teaching Coordinator"
+tier: 6
+image: karim-rivera-lares.jpg
+---
+
+![](karim-rivera-lares.jpg){fig-align="center"}

@@ -4,17 +4,17 @@ listing:
   - id: ms-dshsc
     contents: "ms-dshsc"
     type: grid
-    categories: true
-    sort-ui: true
-    filter-ui: true
     feed: 
       categories: [R, Quarto]
+    sort:
+    - "tier desc"
+    - "title asc"
   - id: short-courses
     contents: "short-courses"
     type: grid
-    categories: true
-    sort-ui: true
-    filter-ui: true
+    sort:
+    - "tier desc"
+    - "title asc"
     feed: 
       categories: [R, Quarto]
 page-layout: full
@@ -22,6 +22,7 @@ title-block-banner: false
 #knitr:
 #  opts_chunk: 
 #    collapse: true
+toc: false
 execute: 
   echo: false
 ---
@@ -32,9 +33,24 @@ Our courses widen the landing strip for new arrivals into the Data Science We co
 
 ## Master in Data Science for Health and Social Care
 
+Our flagship MSc program (online, part-time, 3 years) attracts two types of students:
+
+- Health and Social Care professionals get an opportunity to upskill in Data Science and research practices;
+- Data Science professionals with interest in health can build stronger foundations in health and social care applications and research.
+
+Below is a list of some of our most popular courses.
+
 :::{#ms-dshsc}
 :::
 
 ## Short courses
+
+Our team also created a number of online short courses:
+
+- paid certified courses (10-15 hours of materials);
+- free taster courses (1-1.5 hours of materials).
+
+They are a way to upskill, and to sample how some of our learning on the MSc program looks like.
+
 :::{#short-courses}
 :::

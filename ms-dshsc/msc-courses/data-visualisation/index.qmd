@@ -1,40 +1,24 @@
 ---
 title: Data visualisation Knowledge Transfer
 description: |
-  **Delivery mode:** Online (distance learning) 
+  **Online** (distance learning)
   
-  **Start date:** Years 1, 2 and 3 | Term 2 - Block 3 
-  
-  **Credits:** 10 
+  **Duration:** 5 weeks - **Credits:** 10 
 site-url: https://www.drps.ed.ac.uk/current/dpt/cxhein11040.htm
 image: uoe.jpg
 #image-alt: |
 categories: [design, data, scholar, qual, postgraduate]
 open-graph: true
 twitter-card: true
-# will inherit title, description, image
-# to change ANYTHING about card, need to fill in EVERYTHING below
-#  title: |
-#  description: |
-#  image: |
-#  image-alt: |
-#  defaults to 500 x 500 summary: uncomment lines below for large card
-#  image-width: 600 
-#  image-height: 314
-#  card-style: summary_large_image 
-#  image-width: 500
-#  image-height: 500
-#  card-style: summary
 draft: false
 ---
-::: {.profile-image-float-left}
-![](.jpg){fig-align="centre"}
-:::
+
 
 ## About this course
 
+Data visualisation, in general terms, is a tangible representation of data that provides an accessible means for analysing, understanding, and communicating the trends, outliers, and patterns of data for and across sectors and audiences. This course explores the communication of data relevant to health, social and care services settings through visualisations for exploration, analysis and related communication media. Visualisation can be a powerful means of sharing and communicating service user data to a range of audiences, such as driving policy development or improving stakeholder or broader public understanding. The course will explore theory, application, design and evaluation techniques that can be used to visualise and accessibly communicate data in various ways, such as combining vignettes taken from individual stories with data derived from official sources such as government statistics. Students will be introduced to several global projects that communicate health, social, and care services data in this way and will have the opportunity to develop their small data visualisation project.
+ 
+## Programming
 
- 
-## Assessment
- 
+No Programming 
 

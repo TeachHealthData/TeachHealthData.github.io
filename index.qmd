@@ -1,7 +1,7 @@
-rgh ---
+---
 knitr:
   opts_chunk: 
-    collapse: true
+    collapse: false
 execute: 
   echo: false
 page-layout: full
@@ -9,15 +9,23 @@ include-in-header:
   - _includes/fontawesome-2up.html
 title: "Edinburgh Medical School (University of Edinburgh) - Data Science Team"
 listing:
-  contents:
-    # - "about.qmd"
+  - id: menu-items
+    contents:
     - "people.qmd"
     - "resources.qmd"
     - "teaching.qmd"
-    # - "contact.qmd"
-  sort: falsex
-  type: grid
-  grid-columns: 3
+    sort: falsex
+    type: grid
+format:
+  html: 
+    css: ddi-styles.css
 ---
 
-We are the team within Edinburgh Medical School (University of Edinburgh) delivering Data Science for Health and Social Care courses within Edinburgh Medical School (University of Edinburgh). Here you will find information about our courses, about us and resources we're creating.
+::: {.profile-image-float-left .profile-image-float-left-small}
+![](images/logo.png)
+:::
+
+#### We are the team within Edinburgh Medical School (University of Edinburgh) delivering Data Science for Health and Social Care courses within Edinburgh Medical School (University of Edinburgh). Here you will find information about our courses, about us and resources we're creating.
+
+:::{#menu-items .float-none}
+:::

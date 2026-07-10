@@ -1,5 +1,6 @@
 ---
 title: Introduction to Health Data Analytics and R
+tier: 6
 description: |
   **Delivery Mode:** Online (self-paced independent learning)
   

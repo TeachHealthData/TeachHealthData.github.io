@@ -58,3 +58,6 @@ _freeze/*
 */.DS_Store
 .DS_Store
 **/*.quarto_ipynb
+
+index_files
+*/index_files
