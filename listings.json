@@ -15,7 +15,8 @@
       "/people/adele-willoughby/index.html",
       "/people/jenn-liedtke/index.html",
       "/people/karolina-gibson-bajbuz/index.html",
-      "/people/sabrina/index.html",
+      "/people/stewart-smith/index.html",
+      "/people/yingya-sabrina-xu/index.html",
       "/people/emiliano-videla/index.html",
       "/people/franziska-mcmanus/index.html",
       "/people/karim-rivera-lares/index.html",
@@ -74,6 +75,10 @@
     ]
   },
   {
+    "listing": "/contact.html",
+    "items": []
+  },
+  {
     "listing": "/resources.html",
     "items": [
       "/resources/book-teaching-programming-across-disciplines/index.html",
@@ -82,10 +87,6 @@
       "/resources/hackathon-Feb-2026-ems-math-phs/index.html",
       "/resources/pair-maker-tool/index.html"
     ]
-  },
-  {
-    "listing": "/contact.html",
-    "items": []
   },
   {
     "listing": "/about.html",
