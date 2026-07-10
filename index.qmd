@@ -7,7 +7,7 @@ execute:
 page-layout: full
 include-in-header: 
   - _includes/fontawesome-2up.html
-title: "Data Science for Health and Social Care at the University of Edinburgh"
+title: "Edinburgh Medical School (University of Edinburgh) - Data Science Team"
 listing:
   - id: menu-items
     contents:
@@ -20,13 +20,12 @@ format:
   html: 
     css: ddi-styles.css
 ---
+
 ::: {.profile-image-float-left .profile-image-float-left-small}
 ![](images/logo.png)
 :::
 
-#### We are the team delivering Data Science for Health and Social Care courses within Edinburgh Medical School (University of Edinburgh). Here you will find information about our courses, about us and resources we're creating.
-
+#### We are the team within Edinburgh Medical School (University of Edinburgh) delivering Data Science for Health and Social Care courses within Edinburgh Medical School (University of Edinburgh). Here you will find information about our courses, about us and resources we're creating.
 
 :::{#menu-items .float-none}
 :::
-
