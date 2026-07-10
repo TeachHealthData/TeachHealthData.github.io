@@ -1,0 +1,7 @@
+---
+title: "Michelle Evans"
+subtitle: "Programme Founder"
+tier: 10
+image: ../../images/uoe.jpg
+draft: false
+---
