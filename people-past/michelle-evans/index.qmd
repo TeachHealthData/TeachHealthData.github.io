@@ -2,6 +2,6 @@
 title: "Michelle Evans"
 subtitle: "Programme Founder"
 tier: 10
-image: ../../images/uoe.jpg
+image: michelle-evans.jpg
 draft: false
 ---

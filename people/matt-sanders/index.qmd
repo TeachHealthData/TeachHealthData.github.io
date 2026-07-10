@@ -2,5 +2,5 @@
 title: "Matt Sanders"
 subtitle: "Digital Education Support Officer"
 tier: 4
-image: ../../images/uoe.jpg
+image: matt-sanders.jpg
 ---
