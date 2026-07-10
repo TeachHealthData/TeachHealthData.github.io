@@ -9,9 +9,9 @@ execute:
 
 website:
   title: "Data Science at EMS"
-  site-url: https://ddi-talent.github.io/
+  site-url: https://TeachHealthData.github.io
   description: Team website, portfolio and blog
-  repo-url: https://github.com/DDI-Talent/ddi-talent.github.io
+  repo-url: https://github.com/TeachHealthData/TeachHealthData.github.io
   #repo-actions: issue
   image: images/logo.png
   navbar:
@@ -32,7 +32,7 @@ website:
       #- icon: uni-website[TODO?]
       #  href: https://github.com/DDI-Talent/
       - icon: github
-        href: https://github.com/DDI-Talent/
+        href: https://github.com/TeachHealthData/
   favicon: images/favicon.png
   open-graph: 
     #description: TODO: share card text

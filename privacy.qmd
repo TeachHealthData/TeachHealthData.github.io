@@ -9,7 +9,7 @@ execute:
   echo: false
 ---
 
-The website address of the Teach Health Data is https://ddi-talent.github.io/.
+The website address of the Teach Health Data is https://TeachHealthData.github.io.
 
 The information contained in this website is for general information purposes only. The information is provided by the Teach Health Data team and while we try to keep the information up-to-date and accurate, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website information, products, services, or graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
 
