@@ -1,5 +1,6 @@
 ---
 title: Natural Language Processing (NLP) 2 in R for Health and Social Care
+tier: 10
 description: |
   **Delivery mode:** Online (self-paced independent learning)
   

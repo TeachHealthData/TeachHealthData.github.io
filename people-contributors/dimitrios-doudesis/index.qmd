@@ -1,0 +1,6 @@
+---
+title: "Dimitrios Doudesis"
+subtitle: "Course Lead "
+image: ../../images/uoe.jpg
+draft: false
+---

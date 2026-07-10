@@ -1,0 +1,12 @@
+---
+title: "Adele Willoughby"
+subtitle: "MSc Programme Administrator"
+image: adele-willoughby.png
+tier: 7
+draft: false
+---
+
+<!-- upload your picture as a .jpg file in your corresponding folder and then add the name of the file in line 31 before the .jpg-->
+
+![](adele-willoughby.png){fig-align="center"}
+

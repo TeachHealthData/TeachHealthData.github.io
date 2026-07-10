@@ -1,0 +1,6 @@
+---
+title: "Kerry Cannon"
+subtitle: "Course Lead"
+image: ../../images/uoe.jpg
+draft: false
+---

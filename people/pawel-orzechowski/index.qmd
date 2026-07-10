@@ -1,10 +1,11 @@
 ---
-title: Dr Pawel Orzechowski
+title: Pawel Orzechowski
 subtitle: |
   Lecturer in Programming for Data Science
 description: |
   Programmer who fell in love with teaching.
-image: pawel_profile.jpg
+tier: 10
+image: pawel-orzechowski.jpg
 image-alt: |
   Photo of Pawel
 format:
@@ -13,7 +14,7 @@ format:
 ---
 
 ::: {.profile-image-float-left}
-![](pawel_profile.jpg){fig-align="centre"}
+![](pawel-orzechowski.jpg){fig-align="centre"}
 :::
 
 ## Background

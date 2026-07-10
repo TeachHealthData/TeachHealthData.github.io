@@ -1,5 +1,6 @@
 ---
 title: Introduction to Data Visualisation
+tier: 6
 description: |
   **Delivery mode:** Online (self-paced independent learning)
   

@@ -1,15 +1,33 @@
 ---
-#title: "people"
+image: images/team.png
 listing:
-  contents: people
-  sort: "date desc"
-  type: grid
-  categories: true
-  sort-ui: false
-  filter-ui: false
-  feed: 
-    categories: [R, Quarto]
-  fields: [image, title, description, subtitle]
+  - id: current-staff
+    contents: people
+    type: grid
+    categories: true
+    page-size: 36
+    sort:
+    - "tier desc"
+    - "title asc"
+    fields: [image, title, subtitle]
+  - id: course-contributors
+    contents: people-contributors
+    type: grid
+    categories: true
+    page-size: 36
+    sort:
+    - "tier desc"
+    - "title asc"
+    fields: [image, title, subtitle]
+  - id: past-contributors
+    contents: people-past
+    type: grid
+    categories: true
+    sort:
+    - "tier desc"
+    - "title asc"
+    fields: [image, title, subtitle]
+  
 
 page-layout: full
 title-block-banner: false
@@ -19,8 +37,26 @@ title-block-banner: false
 execute: 
   echo: false
 ---
-![](images/team.png){.profile-pic fig-alt="TODO" fig-align="center" width="33%"}
 
  
 # [PEOPLE]{.second-color}
 Our multidisciplinary team is made of Data Science teachers from across the university (Medicine, Psychology, Business and Math). Teaching career changers is our main focus, as we explore how Data can transform Health as it is anchored the social and economical realities of the world.
+
+## Current team members
+
+These are the people you might encounter on your courses as teachers, administrators and in other supporting roles:
+
+:::{#current-staff}
+:::
+
+## Course Contributors
+
+Some people who contributed their expertise to our courses:
+
+:::{#course-contributors}
+:::
+
+## Some of our valuable past contributors
+
+:::{#past-contributors}
+:::
