@@ -4,7 +4,6 @@ listing:
   - id: ms-dshsc
     contents: "ms-dshsc"
     type: grid
-    categories: true
     feed: 
       categories: [R, Quarto]
     sort:
@@ -13,7 +12,6 @@ listing:
   - id: short-courses
     contents: "short-courses"
     type: grid
-    categories: true
     sort:
     - "tier desc"
     - "title asc"
@@ -24,6 +22,7 @@ title-block-banner: false
 #knitr:
 #  opts_chunk: 
 #    collapse: true
+toc: false
 execute: 
   echo: false
 ---
@@ -52,5 +51,6 @@ Our team also created a number of online short courses:
 - free taster courses (1-1.5 hours of materials).
 
 They are a way to upskill, and to sample how some of our learning on the MSc program looks like.
+
 :::{#short-courses}
 :::

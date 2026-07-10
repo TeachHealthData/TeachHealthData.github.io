@@ -1,10 +1,10 @@
 ---
 image: images/team.png
+toc: false
 listing:
   - id: current-staff
     contents: people
     type: grid
-    categories: true
     page-size: 36
     sort:
     - "tier desc"
@@ -13,7 +13,6 @@ listing:
   - id: course-contributors
     contents: people-contributors
     type: grid
-    categories: true
     page-size: 36
     sort:
     - "tier desc"
@@ -22,7 +21,6 @@ listing:
   - id: past-contributors
     contents: people-past
     type: grid
-    categories: true
     sort:
     - "tier desc"
     - "title asc"
@@ -42,7 +40,7 @@ execute:
 # [PEOPLE]{.second-color}
 Our multidisciplinary team is made of Data Science teachers from across the university (Medicine, Psychology, Business and Math). Teaching career changers is our main focus, as we explore how Data can transform Health as it is anchored the social and economical realities of the world.
 
-## Current team members
+## Current Team Members
 
 These are the people you might encounter on your courses as teachers, administrators and in other supporting roles:
 
@@ -56,7 +54,7 @@ Some people who contributed their expertise to our courses:
 :::{#course-contributors}
 :::
 
-## Some of our valuable past contributors
+## Valuable Past Contributors
 
 :::{#past-contributors}
 :::

@@ -1,29 +1,8 @@
 ---
-title: Health Data Hackathon
+title: Health Data Hackathon 2026
 description: |
-  The Edinburgh Medical School and the School of Methematics held a health data hackathon in collaboration with Public Health Scotland.
-date: 02/04/2026
-author: 
-  - name: By Dr. Banas and Dr. Videla Rodriguez
-site-url: TODO
-#image: IMAGE.png
-#image-alt: |
-categories: [Events]
-open-graph: true
-twitter-card: true
-# will inherit title, description, image
-# to change ANYTHING about card, need to fill in EVERYTHING below
-#  title: |
-#  description: |
-#  image: |
-#  image-alt: |
-#  defaults to 500 x 500 summary: uncomment lines below for large card
-#  image-width: 600 
-#  image-height: 314
-#  card-style: summary_large_image 
-#  image-width: 500
-#  image-height: 500
-#  card-style: summary
+  Hackathon organised by Edinburgh Medical School, School of Mathematics and Public Health Scotland.
+image: ../../images/uoe.jpg
 draft: false
 ---
 

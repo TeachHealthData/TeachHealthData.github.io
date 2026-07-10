@@ -4,20 +4,16 @@ listing:
   contents: resources
   sort: "date desc"
   type: grid
-  categories: true
-  sort-ui: false
-  filter-ui: false
-  feed: 
-    categories: [R, Quarto]
 page-layout: full
 title-block-banner: false
+toc: false
 #knitr:
 #  opts_chunk: 
 #    collapse: true
 execute: 
   echo: false
+image: images/resources.png
 ---
-![](images/resources.png){.profile-pic fig-alt="TODO" fig-align="center" width="33%"}
 
 # [RESOURCES]{.second-color}
 We love sharing our innovative learning in our books, software tools and videos. Read about innitiatives and resoutces we created to enable other educators and learners to flourish.
