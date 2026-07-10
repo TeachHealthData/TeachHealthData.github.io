@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>resources – DDI Talent Team Website</title>
+<title>resources – Data Science at EMS</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,8 +36,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="./images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -89,9 +87,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -108,33 +106,6 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=[TODO]aa-7G8FLLRS4M[TODO]"></script>
-
-<script type="text/plain" cookie-consent="tracking">
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '[TODO]aa-7G8FLLRS4M[TODO]', { 'anonymize_ip': true});
-</script>
-
-<script type="text/javascript" charset="UTF-8">
-document.addEventListener('DOMContentLoaded', function () {
-cookieconsent.run({
-  "notice_banner_type":"simple",
-  "consent_type":"express",
-  "palette":"light",
-  "language":"en",
-  "page_load_consent_levels":["strictly-necessary"],
-  "notice_banner_reject_button_hide":false,
-  "preferences_center_close_button_hide":false,
-  "website_name":""
-  ,
-"language":"en"
-  });
-});
-</script> 
-  
 <style>html{ scroll-behavior: smooth; }</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -168,11 +139,10 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="assets/ddi-styles.css">
-<link rel="alternate" type="application/rss+xml" title="DDI Talent Team Website" href="resources.xml" data-external="1"><meta property="og:title" content="DDI Talent Team Website">
-<meta property="og:description" content="Team website, portfolio and blog [TODO]">
+<meta property="og:title" content="Data Science at EMS">
+<meta property="og:description" content="Team website, portfolio and blog">
 <meta property="og:image" content="https://ddi-talent.github.io/images/resources.png">
-<meta property="og:site_name" content="DDI Talent Team Website">
-<meta property="og:image:alt" content="TODO">
+<meta property="og:site_name" content="Data Science at EMS">
 <meta property="og:image:height" content="2000">
 <meta property="og:image:width" content="5000">
 </head>
@@ -346,8 +316,12 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/logo.png" alt="" class="navbar-logo light-content">
+    <img src="./images/logo.png" alt="" class="navbar-logo dark-content">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title"><span class="icon-line"></span>TEACH<span class="icon-line"></span>HEALTH<span class="icon-line"></span>DATA<span class="icon-line"></span></span>
+    <span class="navbar-title">Data Science at EMS</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -385,27 +359,14 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Contents</h2>
-   
-  <ul>
-  <li><a href="#resources" id="toc-resources" class="nav-link active" data-scroll-target="#resources"><span class="second-color">RESOURCES</span></a></li>
-  </ul>
-</nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="RXZlbnRz">Events <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VEFHXzE=">TAG_1 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VEFHXzI=">TAG_2 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VG9vbHM=">Tools <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/resources.png" class="profile-pic img-fluid quarto-figure quarto-figure-center figure-img" style="width:33.0%" alt="TODO"></p>
-</figure>
-</div>
 <section id="resources" class="level1">
 <h1><span class="second-color">RESOURCES</span></h1>
 <p>We love sharing our innovative learning in our books, software tools and videos. Read about innitiatives and resoutces we created to enable other educators and learners to flourish.</p>
@@ -416,111 +377,106 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="VG9vbHM=" data-listing-date-sort="1770249600000" data-listing-file-modified-sort="1782810766033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1783716736206" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./resources/book-teaching-programming-across-disciplines/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./resources/book-teaching-programming-across-disciplines/book-logo.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Book - Teaching Programming across Disciplines
+</h5>
+<div class="card-text listing-description delink">
+<p>Book we co-created, with 36 chapters written by 75 authors (Open Access)</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1783716736207" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
 <a href="./resources/choose-your-courses-Feb-2026/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img loading="lazy" src="./resources/choose-your-courses-Feb-2026/course-selector.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Course Selection Tool
 </h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VG9vbHM='); return false;">Tools</div>
-
-</div>
 <div class="card-text listing-description delink">
-<p>Are you a prospective student of one of our MSc Degrees? Pick and choose your courses using this app.</p>
+<p>An interactive tool used by our students to select their courses</p>
 </div>
-<div class="card-attribution card-text-small justify">
+<div class="card-attribution card-text-small start">
 <div class="listing-author">
-Pawel Orzechowski
-</div>
-<div class="listing-date">
-Feb 5, 2026
+
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="VG9vbHM=" data-listing-date-sort="1770249600000" data-listing-file-modified-sort="1782810766033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
-<a href="./resources/pair-programming-groups-Feb-2026/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Pairs Maker. Pair Programming and Groupwork
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VG9vbHM='); return false;">Tools</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Applying pair-programming in your teaching? Take a look at this tool.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Pawel Orzechowsky
-</div>
-<div class="listing-date">
-Feb 5, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="VEFHXzElMkNUQUdfMg==" data-listing-date-sort="NaN" data-listing-file-modified-sort="1782810766033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="101">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1783716736208" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./resources/pair-programming-community/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img loading="lazy" src="./resources/pair-programming-community/pair-programming-badge.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Post Title
+Pair-Programming Winter School
 </h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('VEFHXzE='); return false;">TAG_1</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VEFHXzI='); return false;">TAG_2</div>
-
-</div>
 <div class="card-text listing-description delink">
-<p>Post description TODO</p>
+<p>Grassroots community of teachers meeting on an annual Winter School conference</p>
 </div>
-<div class="card-attribution card-text-small justify">
+<div class="card-attribution card-text-small start">
 <div class="listing-author">
-TODO
-</div>
-<div class="listing-date">
-Invalid Date
+
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="RXZlbnRz" data-listing-date-sort="1770163200000" data-listing-file-modified-sort="1782810766033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="677">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1783716736208" data-listing-reading-time-sort="4" data-listing-word-count-sort="677">
 <a href="./resources/hackathon-Feb-2026-ems-math-phs/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="resources/hackathon-Feb-2026-ems-math-phs/image.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img loading="lazy" src="./images/uoe.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Health Data Hackathon
+Health Data Hackathon 2026
 </h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RXZlbnRz'); return false;">Events</div>
-
-</div>
 <div class="card-text listing-description delink">
-<p>The Edinburgh Medical School and the School of Methematics held a health data hackathon in collaboration with Public Health Scotland.</p>
+<p>Hackathon organised by Edinburgh Medical School, School of Mathematics and Public Health Scotland.</p>
 </div>
-<div class="card-attribution card-text-small justify">
+<div class="card-attribution card-text-small start">
 <div class="listing-author">
-By Dr.&nbsp;Banas and Dr.&nbsp;Videla Rodriguez
+
 </div>
-<div class="listing-date">
-Feb 4, 2026
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1783716736208" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
+<a href="./resources/pair-maker-tool/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./resources/pair-maker-tool/pairs-maker.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pair Programming Pair Maker
+</h5>
+<div class="card-text listing-description delink">
+<p>Tool to create perfect pair-programming groups.</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
 </div>
 </div>
 </div>
@@ -954,18 +910,13 @@ Feb 4, 2026
 <p>Teach Health Data</p>
 </div>   
     <div class="nav-footer-center">
-
-<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="./privacy.html">
 <p>Privacy Policy</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="./cookies.html">
-<p>Cookies</p>
 </a>
   </li>  
 </ul>

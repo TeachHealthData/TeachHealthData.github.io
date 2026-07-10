@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>people – DDI Talent Team Website</title>
+<title>people – Data Science at EMS</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,8 +36,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="./images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -82,20 +80,76 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-current-staff .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-current-staff'] = new List('listing-current-staff', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-course-contributors .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-course-contributors'] = new List('listing-course-contributors', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-past-contributors .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-past-contributors'] = new List('listing-past-contributors', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -108,33 +162,6 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=[TODO]aa-7G8FLLRS4M[TODO]"></script>
-
-<script type="text/plain" cookie-consent="tracking">
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '[TODO]aa-7G8FLLRS4M[TODO]', { 'anonymize_ip': true});
-</script>
-
-<script type="text/javascript" charset="UTF-8">
-document.addEventListener('DOMContentLoaded', function () {
-cookieconsent.run({
-  "notice_banner_type":"simple",
-  "consent_type":"express",
-  "palette":"light",
-  "language":"en",
-  "page_load_consent_levels":["strictly-necessary"],
-  "notice_banner_reject_button_hide":false,
-  "preferences_center_close_button_hide":false,
-  "website_name":""
-  ,
-"language":"en"
-  });
-});
-</script> 
-  
 <style>html{ scroll-behavior: smooth; }</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -168,11 +195,10 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="assets/ddi-styles.css">
-<link rel="alternate" type="application/rss+xml" title="DDI Talent Team Website" href="people.xml" data-external="1"><meta property="og:title" content="DDI Talent Team Website">
-<meta property="og:description" content="Team website, portfolio and blog [TODO]">
+<meta property="og:title" content="Data Science at EMS">
+<meta property="og:description" content="Team website, portfolio and blog">
 <meta property="og:image" content="https://ddi-talent.github.io/images/team.png">
-<meta property="og:site_name" content="DDI Talent Team Website">
-<meta property="og:image:alt" content="TODO">
+<meta property="og:site_name" content="Data Science at EMS">
 <meta property="og:image:height" content="2000">
 <meta property="og:image:width" content="5000">
 </head>
@@ -346,8 +372,12 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/logo.png" alt="" class="navbar-logo light-content">
+    <img src="./images/logo.png" alt="" class="navbar-logo dark-content">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title"><span class="icon-line"></span>TEACH<span class="icon-line"></span>HEALTH<span class="icon-line"></span>DATA<span class="icon-line"></span></span>
+    <span class="navbar-title">Data Science at EMS</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -385,346 +415,562 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Contents</h2>
-   
-  <ul>
-  <li><a href="#people" id="toc-people" class="nav-link active" data-scroll-target="#people"><span class="second-color">PEOPLE</span></a></li>
-  </ul>
-</nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(18)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/team.png" class="profile-pic img-fluid quarto-figure quarto-figure-center figure-img" style="width:33.0%" alt="TODO"></p>
-</figure>
-</div>
 <section id="people" class="level1">
 <h1><span class="second-color">PEOPLE</span></h1>
 <p>Our multidisciplinary team is made of Data Science teachers from across the university (Medicine, Psychology, Business and Math). Teaching career changers is our main focus, as we explore how Data can transform Health as it is anchored the social and economical realities of the world.</p>
-
-
-
-</section>
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<section id="current-team-members" class="level2">
+<h2 class="anchored" data-anchor-id="current-team-members">Current Team Members</h2>
+<p>These are the people you might encounter on your courses as teachers, administrators and in other supporting roles:</p>
+<div id="listing-current-staff" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1782810766032" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
-<a href="./people/suzanne-goopy/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1783716736187" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people/brittany-blankinship/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="people/suzanne-goopy/.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img loading="lazy" src="./people/brittany-blankinship/brittany-blankinship.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Publications
+Brittany Blankinship
 </h5>
 <div class="card-subtitle listing-subtitle">
-
-</div>
-<div class="card-text listing-description delink">
-<p>your brief description</p>
+Lecturer in Data Science, MSc Programme Director
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1782810766030" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
-<a href="./people/matt-sanders/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="people/matt-sanders/.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Publications
-</h5>
-<div class="card-subtitle listing-subtitle">
-
-</div>
-<div class="card-text listing-description delink">
-<p>your brief description</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1782810766032" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
-<a href="./people/sophie-marion-de-proce/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="people/sophie-marion-de-proce/.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Publications
-</h5>
-<div class="card-subtitle listing-subtitle">
-
-</div>
-<div class="card-text listing-description delink">
-<p>your brief description</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1782810766030" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
-<a href="./people/john-wilson/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="people/john-wilson/.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Publications
-</h5>
-<div class="card-subtitle listing-subtitle">
-
-</div>
-<div class="card-text listing-description delink">
-<p>your brief description</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1782810766031" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1783716736195" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./people/nazir-lone/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="people/nazir-lone/.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img loading="lazy" src="./people/nazir-lone/nazir-lone.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Publications
+Nazir Lone
 </h5>
 <div class="card-subtitle listing-subtitle">
-
-</div>
-<div class="card-text listing-description delink">
-<p>your brief description</p>
+Professor, MSc Programme Deputy Director
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1782810766029" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1783716736193" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people/kasia-banas/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./people/kasia-banas/kasia-banas.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Kasia Banas
+</h5>
+<div class="card-subtitle listing-subtitle">
+Senior Lecturer, UG Programme Director
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1783716736196" data-listing-reading-time-sort="2" data-listing-word-count-sort="350">
+<a href="./people/pawel-orzechowski/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./people/pawel-orzechowski/pawel-orzechowski.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="Photo of Pawel
+">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pawel Orzechowski
+</h5>
+<div class="card-subtitle listing-subtitle">
+<p>Lecturer in Programming for Data Science</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1783716736199" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people/sophie-marion-de-proce/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/uoe.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sophie Marion de Porce
+</h5>
+<div class="card-subtitle listing-subtitle">
+Lecturer in Statistics
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1783716736188" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people/chris-oldnall/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./people/chris-oldnall/chris-oldnall.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Chris Oldnall
+</h5>
+<div class="card-subtitle listing-subtitle">
+Lecturer
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1783716736189" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./people/elaine-mowat/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="people/elaine-mowat/.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img loading="lazy" src="./people/elaine-mowat/elaine-mowat.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Publications
+Elaine Mowat
 </h5>
 <div class="card-subtitle listing-subtitle">
-
-</div>
-<div class="card-text listing-description delink">
-<p>your brief description</p>
+Programme Manager
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1782810766030" data-listing-reading-time-sort="2" data-listing-word-count-sort="353">
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1783716736199" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people/suzanne-goopy/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./people/suzanne-goopy/suzanne-goopy.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Suzanne Goopy
+</h5>
+<div class="card-subtitle listing-subtitle">
+PGT Research Manager
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1783716736186" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people/angelo-ercia/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/uoe.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Angelo Ercia
+</h5>
+<div class="card-subtitle listing-subtitle">
+Teaching Fellow
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="9" data-listing-file-modified-sort="1783716736189" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people/john-wilson/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./people/john-wilson/john-wilson.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+John Wilson
+</h5>
+<div class="card-subtitle listing-subtitle">
+Teaching Fellow
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="10" data-listing-file-modified-sort="1783716736183" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
+<a href="./people/adele-willoughby/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./people/adele-willoughby/adele-willoughby.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Adele Willoughby
+</h5>
+<div class="card-subtitle listing-subtitle">
+MSc Programme Administrator
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="11" data-listing-file-modified-sort="1783716736189" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people/jenn-liedtke/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./people/jenn-liedtke/jenn-liedtke.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Jenn Liedtke
+</h5>
+<div class="card-subtitle listing-subtitle">
+MSc Programme Administrator
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="12" data-listing-file-modified-sort="1783716736193" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people/karolina-gibson-bajbuz/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/uoe.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Karolina Gibson-Bajbuz
+</h5>
+<div class="card-subtitle listing-subtitle">
+Programme Administrator
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="13" data-listing-file-modified-sort="1783716736197" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people/sabrina/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./people/sabrina/sabrina.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Yingya (Sabrina) Xu
+</h5>
+<div class="card-subtitle listing-subtitle">
+MSc Programme Administrator
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="14" data-listing-file-modified-sort="1783716736189" data-listing-reading-time-sort="2" data-listing-word-count-sort="354">
 <a href="./people/emiliano-videla/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="people/emiliano-videla/EAVR.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img loading="lazy" src="./people/emiliano-videla/emiliano-videla.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Emiliano Ariel Videla Rodríguez
 </h5>
 <div class="card-subtitle listing-subtitle">
-Teaching Co-ordinator
-</div>
-<div class="card-text listing-description delink">
-<p>All I know is that I know nothing</p>
+Teaching Coordinator
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1782810766031" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
-<a href="./people/mavis-frempong/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="people/mavis-frempong/.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Publications
-</h5>
-<div class="card-subtitle listing-subtitle">
-
-</div>
-<div class="card-text listing-description delink">
-<p>your brief description</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1782810766031" data-listing-reading-time-sort="2" data-listing-word-count-sort="350">
-<a href="./people/pawel-orzechowski/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="15" data-listing-file-modified-sort="1783716736189" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people/franziska-mcmanus/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./people/pawel-orzechowski/pawel_profile.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="Photo of Pawel
-">
+<img loading="lazy" src="./people/franziska-mcmanus/franziska-mcmanus.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Dr Pawel Orzechowski
+Franziska (Ziska) McManus
 </h5>
 <div class="card-subtitle listing-subtitle">
-<p>Lecturer in Programming for Data Science</p>
-</div>
-<div class="card-text listing-description delink">
-<p>Programmer who fell in love with teaching.</p>
+Teaching Assistant
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="9" data-listing-file-modified-sort="1782810766030" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
-<a href="./people/franziska-mcmanus/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="16" data-listing-file-modified-sort="1783716736190" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people/karim-rivera-lares/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="people/franziska-mcmanus/.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img loading="lazy" src="./people/karim-rivera-lares/karim-rivera-lares.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Publications
+Karim Rivera Lares
 </h5>
 <div class="card-subtitle listing-subtitle">
-
-</div>
-<div class="card-text listing-description delink">
-<p>your brief description</p>
+Teaching Coordinator
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="10" data-listing-file-modified-sort="1782810766029" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
-<a href="./people/chris-oldnall/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="people/chris-oldnall/.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Publications
-</h5>
-<div class="card-subtitle listing-subtitle">
-
-</div>
-<div class="card-text listing-description delink">
-<p>your brief description</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="11" data-listing-file-modified-sort="1782810766030" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
-<a href="./people/karolina-gibson-bajbuz/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="people/karolina-gibson-bajbuz/.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Publications
-</h5>
-<div class="card-subtitle listing-subtitle">
-
-</div>
-<div class="card-text listing-description delink">
-<p>your brief description</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="12" data-listing-file-modified-sort="1782810766029" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
-<a href="./people/brittany-blankinship/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="people/brittany-blankinship/.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Publications
-</h5>
-<div class="card-subtitle listing-subtitle">
-
-</div>
-<div class="card-text listing-description delink">
-<p>your brief description</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="13" data-listing-file-modified-sort="1782810766030" data-listing-reading-time-sort="2" data-listing-word-count-sort="321">
+<div class="g-col-1" data-index="17" data-listing-file-modified-sort="1783716736195" data-listing-reading-time-sort="2" data-listing-word-count-sort="321">
 <a href="./people/laila-dabab-nahas/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="people/laila-dabab-nahas/My_photo_2.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img loading="lazy" src="./people/laila-dabab-nahas/laila-dabab-nahas.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Laila Dabab Nahas
 </h5>
-<div class="card-text listing-description delink">
-Currently, I have been a teaching assistant at Edinburgh Medical School since May 2024.
+<div class="card-subtitle listing-subtitle">
+Teaching Assistant
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="14" data-listing-file-modified-sort="1782810766030" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
-<a href="./people/jenn-liedtke/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="18" data-listing-file-modified-sort="1783716736195" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people/matt-sanders/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="people/jenn-liedtke/.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img loading="lazy" src="./images/uoe.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Publications
+Matt Sanders
 </h5>
 <div class="card-subtitle listing-subtitle">
-
-</div>
-<div class="card-text listing-description delink">
-<p>your brief description</p>
+Digital Education Support Officer
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="15" data-listing-file-modified-sort="1782810766029" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
-<a href="./people/angelo-ercia/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="19" data-listing-file-modified-sort="1783716736195" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people/mavis-frempong/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="people/angelo-ercia/.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img loading="lazy" src="./images/uoe.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Publications
+Mavis Frempong
 </h5>
 <div class="card-subtitle listing-subtitle">
-
-</div>
-<div class="card-text listing-description delink">
-<p>your brief description</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="16" data-listing-file-modified-sort="1782810766030" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
-<a href="./people/kasia-banas/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="people/kasia-banas/.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Publications
-</h5>
-<div class="card-subtitle listing-subtitle">
-
-</div>
-<div class="card-text listing-description delink">
-<p>your brief description</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="17" data-listing-file-modified-sort="1782810766032" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
-<a href="./people/rosie-downs/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="people/rosie-downs/.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Publications
-</h5>
-<div class="card-subtitle listing-subtitle">
-
-</div>
-<div class="card-text listing-description delink">
-<p>your brief description</p>
+Learning Designer
 </div>
 </div>
 </div></a>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section></div></main> <!-- /main -->
+</div>
+</section>
+<section id="course-contributors" class="level2">
+<h2 class="anchored" data-anchor-id="course-contributors">Course Contributors</h2>
+<p>Some people who contributed their expertise to our courses:</p>
+<div id="listing-course-contributors" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1783716736158" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people-contributors/arelene-casey/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/uoe.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Arelene Casey
+</h5>
+<div class="card-subtitle listing-subtitle">
+Course Lead
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1783716736161" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people-contributors/dimitrios-doudesis/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/uoe.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Dimitrios Doudesis
+</h5>
+<div class="card-subtitle listing-subtitle">
+Course Lead
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1783716736164" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people-contributors/kerry-cannon/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/uoe.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Kerry Cannon
+</h5>
+<div class="card-subtitle listing-subtitle">
+Course Lead
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1783716736167" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people-contributors/shane-sheehan/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/uoe.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Shane Sheehan
+</h5>
+<div class="card-subtitle listing-subtitle">
+Course Lead
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="valuable-past-contributors" class="level2">
+<h2 class="anchored" data-anchor-id="valuable-past-contributors">Valuable Past Contributors</h2>
+<div id="listing-past-contributors" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1783716736175" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people-past/michelle-evans/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/uoe.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Michelle Evans
+</h5>
+<div class="card-subtitle listing-subtitle">
+Programme Founder
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1783716736172" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people-past/ana-maria/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./people-past/ana-maria/ana-maria.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ana-Maria Lungu
+</h5>
+<div class="card-subtitle listing-subtitle">
+Programme Administrator
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1783716736174" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people-past/arif-budiarto/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./people-past/arif-budiarto/arif-budiarto.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Arif Budiarto
+</h5>
+<div class="card-subtitle listing-subtitle">
+Teaching Assistant
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1783716736174" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people-past/damilare-omidiji/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/uoe.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Damilare Omidiji
+</h5>
+<div class="card-subtitle listing-subtitle">
+Teaching Assistant
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1783716736174" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people-past/keith-douglas/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./people-past/keith-douglas/keith-douglas.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Keith Douglas
+</h5>
+<div class="card-subtitle listing-subtitle">
+Teaching Fellow
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1783716736175" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people-past/rebecca-sewell/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./people-past/rebecca-sewell/rebecca-sewell.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Rebecca Sewell
+</h5>
+<div class="card-subtitle listing-subtitle">
+Programme Administrator
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1783716736175" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people-past/rosie-downs/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/uoe.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Rosie Downs
+</h5>
+<div class="card-subtitle listing-subtitle">
+Programme Administrator
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1783716736175" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./people-past/yuhao-sun/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/uoe.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Yuhao Sun
+</h5>
+<div class="card-subtitle listing-subtitle">
+Teaching Assistant
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -1150,18 +1396,13 @@ Publications
 <p>Teach Health Data</p>
 </div>   
     <div class="nav-footer-center">
-
-<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="./privacy.html">
 <p>Privacy Policy</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="./cookies.html">
-<p>Cookies</p>
 </a>
   </li>  
 </ul>
