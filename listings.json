@@ -33,25 +33,16 @@
       "/people-past/keith-douglas/index.html",
       "/people-past/rebecca-sewell/index.html",
       "/people-past/rosie-downs/index.html",
-      "/people-past/yuhao-sun/index.html"
+      "/people-past/yuhao-sun/index.html",
+      "/people-past/summer-interns/index.html"
     ]
   },
   {
-    "listing": "/about.html",
-    "items": []
-  },
-  {
-    "listing": "/contact.html",
-    "items": []
-  },
-  {
-    "listing": "/resources.html",
+    "listing": "/index.html",
     "items": [
-      "/resources/book-teaching-programming-across-disciplines/index.html",
-      "/resources/choose-your-courses-Feb-2026/index.html",
-      "/resources/pair-programming-community/index.html",
-      "/resources/hackathon-Feb-2026-ems-math-phs/index.html",
-      "/resources/pair-maker-tool/index.html"
+      "/people.html",
+      "/resources.html",
+      "/teaching.html"
     ]
   },
   {
@@ -83,11 +74,21 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/resources.html",
     "items": [
-      "/people.html",
-      "/resources.html",
-      "/teaching.html"
+      "/resources/book-teaching-programming-across-disciplines/index.html",
+      "/resources/choose-your-courses-Feb-2026/index.html",
+      "/resources/pair-programming-community/index.html",
+      "/resources/hackathon-Feb-2026-ems-math-phs/index.html",
+      "/resources/pair-maker-tool/index.html"
     ]
+  },
+  {
+    "listing": "/contact.html",
+    "items": []
+  },
+  {
+    "listing": "/about.html",
+    "items": []
   }
 ]

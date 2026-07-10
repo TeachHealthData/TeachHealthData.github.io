@@ -6,17 +6,17 @@
       version="2.0">
 <channel>
 <title>Data Science at EMS</title>
-<link>https://ddi-talent.github.io/teaching.html#category=Quarto</link>
-<atom:link href="https://ddi-talent.github.io/teaching-quarto.xml" rel="self" type="application/rss+xml"/>
+<link>https://TeachHealthData.github.io/teaching.html#category=Quarto</link>
+<atom:link href="https://TeachHealthData.github.io/teaching-quarto.xml" rel="self" type="application/rss+xml"/>
 <description>Team website, portfolio and blog</description>
 <image>
-<url>https://ddi-talent.github.io/images/logo.png</url>
+<url>https://TeachHealthData.github.io/images/logo.png</url>
 <title>Data Science at EMS</title>
-<link>https://ddi-talent.github.io/teaching.html#category=Quarto</link>
+<link>https://TeachHealthData.github.io/teaching.html#category=Quarto</link>
 <height>166</height>
 <width>144</width>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Fri, 10 Jul 2026 20:54:22 GMT</lastBuildDate>
+<lastBuildDate>Fri, 10 Jul 2026 21:10:57 GMT</lastBuildDate>
 </channel>
 </rss>
