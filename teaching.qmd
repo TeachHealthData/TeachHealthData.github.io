@@ -4,8 +4,7 @@ listing:
   - id: ms-dshsc
     contents: "ms-dshsc"
     type: grid
-    feed: 
-      categories: [R, Quarto]
+    categories: true
     sort:
     - "tier desc"
     - "title asc"
@@ -26,7 +25,6 @@ toc: false
 execute: 
   echo: false
 ---
-![](images/teaching.png){.profile-pic fig-alt="TODO" fig-align="center" width="33%"}
 
 # [TEACHING]{.second-color}
 Our courses widen the landing strip for new arrivals into the Data Science We cover foundational topics in thorough and inclusive ways, as well offer deep-dives into specialist subjects: Statistics, Programming in R and Python, Text Analysis, Visualisation and more.
