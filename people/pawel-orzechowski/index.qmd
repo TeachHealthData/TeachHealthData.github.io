@@ -55,16 +55,6 @@ I'm a programmer who fell in love with teaching. I believe that coding is a soci
 - 2019-2023 - Postgraduate Course: Python Programming (CMSE11433)
 - 2019-2023 - Postgraduate Course: Web and Social Network Analytics (CMSE11427)
 
-<!--
-## Continuing Professional Development
-
--   TODO
-
-## Publications
-
--   TODO
--->
-
 ## Outside of work
 
 - Pawel is a co-organiser of  [codebar Edinburgh](https://codebar.io/edinburgh) - a monthly code mentoring event for groups underrepresented in tech industry. 
