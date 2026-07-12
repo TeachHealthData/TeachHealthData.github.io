@@ -1,5 +1,6 @@
 ---
 #title: "teaching"
+image: images/teaching.png
 listing:
   - id: ms-dshsc
     contents: "ms-dshsc"
