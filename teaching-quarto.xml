@@ -10,13 +10,13 @@
 <atom:link href="https://TeachHealthData.github.io/teaching-quarto.xml" rel="self" type="application/rss+xml"/>
 <description>Team website, portfolio and blog</description>
 <image>
-<url>https://TeachHealthData.github.io/images/logo.png</url>
+<url>https://TeachHealthData.github.io/images/teaching.png</url>
 <title>Data Science at EMS</title>
 <link>https://TeachHealthData.github.io/teaching.html#category=Quarto</link>
-<height>166</height>
+<height>58</height>
 <width>144</width>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Sat, 11 Jul 2026 08:45:24 GMT</lastBuildDate>
+<lastBuildDate>Sun, 12 Jul 2026 07:09:50 GMT</lastBuildDate>
 </channel>
 </rss>
