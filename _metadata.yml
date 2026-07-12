@@ -6,10 +6,6 @@ freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
-
-# citation: true
-license: CC BY-SA
-
 open-graph: true
 
 toc: true
