@@ -1,0 +1,11 @@
+---
+title: "Licence"
+page-layout: full
+title-block-banner: false
+execute: 
+  echo: false
+---
+
+Licence structure and contents (excluding images): CC BY-SA
+
+Website structure inspired by [homepage of Ella Kale](https://github.com/EllaKaye/ellakaye.co.uk) from [rainbowR](https://rainbowr.org/) - big thank you for all your work!
