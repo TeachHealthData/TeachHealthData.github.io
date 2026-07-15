@@ -7,6 +7,9 @@
 	margin-bottom: 0px;
 }
 
+p.card-img-top img {
+    height: 300px !important;
+}
 
 .profile-image-float-left{
     width: 30%;
