@@ -6,6 +6,6 @@ execute:
   echo: false
 ---
 
-Licence structure and contents (excluding images): CC BY-SA
+Licence: website structure and contents (excluding images): CC BY-SA
 
-Website structure inspired by [homepage of Ella Kale](https://github.com/EllaKaye/ellakaye.co.uk) from [rainbowR](https://rainbowr.org/) - big thank you for all your work!
+Website structure inspired by [homepage of Ella Kale](https://github.com/EllaKaye/ellakaye.co.uk) from [rainbowR](https://rainbowr.org/) - big thank you for all of your work!
