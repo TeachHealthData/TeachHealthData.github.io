@@ -28,6 +28,8 @@ website:
         href: teaching.qmd
       - text: resources
         href: resources.qmd
+      - text: study with us
+        href: study.qmd
       # - text: contact
       #   href: contact.qmd
       #- icon: uni-website[TODO?]
