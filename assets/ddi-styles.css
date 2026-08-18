@@ -7,6 +7,13 @@
 	margin-bottom: 0px;
 }
 
+/*if study with us is not fifth, change number below*/
+.nav-item:nth-child(5) {
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 p.card-img-top img {
     height: 300px !important;
 }
