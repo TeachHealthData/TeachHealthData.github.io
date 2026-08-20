@@ -27,6 +27,8 @@ format:
 
 #### We are the team within Edinburgh Medical School (University of Edinburgh) delivering Data Science for Health and Social Care courses (Postgraduate, Undergraduate and CPD).
 
+[Apply now](https://study.ed.ac.uk/programmes/postgraduate-taught/1041-data-science-for-health-and-social-care-online-learning){.btn .btn-primary .button-link role="button"}
+
 #### Here you will find information about our [teaching](./teaching.qmd), about [our team](./people.qmd) and [resources](./resources.qmd) we're creating.
 
 :::{#menu-items .float-none}

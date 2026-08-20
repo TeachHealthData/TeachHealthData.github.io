@@ -13,7 +13,7 @@ execute:
 
 ---
 
-[Apply now](https://study.ed.ac.uk/programmes/postgraduate-taught/1041-data-science-for-health-and-social-care-online-learning){.btn .btn-primary role="button"}
+[Apply now](https://study.ed.ac.uk/programmes/postgraduate-taught/1041-data-science-for-health-and-social-care-online-learning){.btn .btn-primary .button-link role="button"}
 
 ---
 
@@ -40,4 +40,4 @@ Got her first data analyst job even before graduating.
 
 ---
 
-[Apply now](https://study.ed.ac.uk/programmes/postgraduate-taught/1041-data-science-for-health-and-social-care-online-learning){.btn .btn-primary role="button"}
+[Apply now](https://study.ed.ac.uk/programmes/postgraduate-taught/1041-data-science-for-health-and-social-care-online-learning){.btn .btn-primary .button-link role="button"}
