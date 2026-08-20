@@ -1,0 +1,7 @@
+---
+title: "Daniel Perez Vicencio"
+subtitle: "Teaching Assistant"
+image: ../../images/uoe.jpg
+tier: 7
+draft: false
+---
