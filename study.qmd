@@ -1,5 +1,5 @@
 ---
-title: "study with us"
+title: "Study with us"
 toc: false
 page-layout: full
 title-block-banner: false
@@ -7,4 +7,37 @@ execute:
   echo: false
 ---
 
-TODO: placeholder, to be filled in with the new leaflet information by 21 Aug 2026
+## Data Science for Health & Social Care - Edinburgh Medical School, University of Edinburgh
+
+#### part-time online postgraduate degree (MSc, PGDip, PGCert)
+
+---
+
+[Apply now](https://study.ed.ac.uk/programmes/postgraduate-taught/1041-data-science-for-health-and-social-care-online-learning){.btn .btn-primary role="button"}
+
+---
+
+### Graduate journeys:
+
+**Anna** – **social care administrator** who pivoted into a well-paid data **job while still studying for MSc**. After graduation they created a medical device startup.
+
+**Bernice** – **midwife** who **spent her
+evenings upskilling** in health data analysis.
+Got her first data analyst job even before graduating.
+
+
+---
+
+### What studying with us looks like:
+
+- Flexible part-time PG study (MSc, PGDip, PGCert)
+- Online program with weekly practical live sessions
+- Leave with a degree after 1, 2, or 3 years
+- Choose your own specialised elective courses
+- Real-life data projects using R, Python, SQL & more
+- Year-group of around 50 students
+- Dedicated academic team
+
+---
+
+[Apply now](https://study.ed.ac.uk/programmes/postgraduate-taught/1041-data-science-for-health-and-social-care-online-learning){.btn .btn-primary role="button"}
