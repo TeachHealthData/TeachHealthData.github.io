@@ -37,6 +37,8 @@ website:
       - icon: github
         href: https://github.com/TeachHealthData/
   favicon: images/favicon.png
+  plausible-analytics:
+    path: _plausible_snippet.html
   open-graph: 
     #description: TODO: share card text
     image: images/logo.png
