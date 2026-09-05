@@ -17,7 +17,7 @@
 <width>144</width>
 </image>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Thu, 20 Aug 2026 21:32:36 GMT</lastBuildDate>
+<lastBuildDate>Sat, 05 Sep 2026 12:40:21 GMT</lastBuildDate>
 <item>
   <title>AI for care in the digital age</title>
   <link>https://TeachHealthData.github.io/ms-dshsc/msc-courses/ai-for-care-in-the-digital-age/</link>
@@ -45,7 +45,7 @@
   <category>leader</category>
   <category>postgraduate</category>
   <guid>https://TeachHealthData.github.io/ms-dshsc/msc-courses/ai-for-care-in-the-digital-age/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/ms-dshsc/msc-courses/ai-for-care-in-the-digital-age/uoe.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -75,7 +75,7 @@
   <category>design</category>
   <category>postgradute</category>
   <guid>https://TeachHealthData.github.io/ms-dshsc/msc-courses/applied-software-development/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/ms-dshsc/msc-courses/applied-software-development/uoe.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -104,7 +104,7 @@
   <category>context</category>
   <category>postgraduate</category>
   <guid>https://TeachHealthData.github.io/ms-dshsc/msc-courses/data-ethics/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/ms-dshsc/msc-courses/data-ethics/uoe.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -132,7 +132,7 @@
   <category>data</category>
   <category>postgraduate</category>
   <guid>https://TeachHealthData.github.io/ms-dshsc/msc-courses/data-types-and-structures/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/ms-dshsc/msc-courses/data-types-and-structures/uoe.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -162,7 +162,7 @@
   <category>qual</category>
   <category>postgraduate</category>
   <guid>https://TeachHealthData.github.io/ms-dshsc/msc-courses/data-visualisation/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/ms-dshsc/msc-courses/data-visualisation/uoe.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -184,7 +184,7 @@
   <category>quant</category>
   <category>postgraduate</category>
   <guid>https://TeachHealthData.github.io/ms-dshsc/msc-courses/foundations-of-research-design/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/ms-dshsc/msc-courses/foundations-of-research-design/uoe.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -214,7 +214,7 @@
   <category>context</category>
   <category>postgradute</category>
   <guid>https://TeachHealthData.github.io/ms-dshsc/msc-courses/foundations-of-machine-learning/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/ms-dshsc/msc-courses/foundations-of-machine-learning/uoe.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -243,7 +243,7 @@
   <category>context</category>
   <category>postgraduate</category>
   <guid>https://TeachHealthData.github.io/ms-dshsc/msc-courses/foundations-of-software-development/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/ms-dshsc/msc-courses/foundations-of-software-development/uoe.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -271,36 +271,8 @@
   <category>data</category>
   <category>postgraduate</category>
   <guid>https://TeachHealthData.github.io/ms-dshsc/msc-courses/intermediate-r-programming/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/ms-dshsc/msc-courses/intermediate-r-programming/uoe.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Introduction to Data Science in Health and Social Care</title>
-  <link>https://TeachHealthData.github.io/ms-dshsc/msc-courses/implementation-science/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="about-this-course" class="level2">
-<h2 class="anchored" data-anchor-id="about-this-course">About this course</h2>
-<p>Demystify data science, what it is and what it is not. Introduction to core topics in data science generally and data science in the health and social care context. Build your data science toolkit with R programming for data handling/wrangling and visualisation and RMarkdown authoring framework. Apply the data science process throughout the course in the datathon assignments and build the skills and confidence to write R code from scratch. Foundation for future courses in the Data Science programme. Suitable for absolute beginners to R.</p>
-</section>
-<section id="programming" class="level2">
-<h2 class="anchored" data-anchor-id="programming">Programming</h2>
-<p>R</p>
-
-
-</section>
-
- ]]></description>
-  <category>code</category>
-  <category>data</category>
-  <category>context</category>
-  <guid>https://TeachHealthData.github.io/ms-dshsc/msc-courses/implementation-science/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
-  <media:content url="https://TeachHealthData.github.io/ms-dshsc/msc-courses/implementation-science/uoe.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Introduction to Data Science in Health and Social Care</title>
@@ -328,7 +300,7 @@
   <category>context</category>
   <category>postgraduate</category>
   <guid>https://TeachHealthData.github.io/ms-dshsc/msc-courses/applied-research-design/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/ms-dshsc/msc-courses/applied-research-design/uoe.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -357,8 +329,36 @@
   <category>context</category>
   <category>postgraduate</category>
   <guid>https://TeachHealthData.github.io/ms-dshsc/msc-courses/Introduction-to-data-science-in-health-and-social-care/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/ms-dshsc/msc-courses/Introduction-to-data-science-in-health-and-social-care/uoe.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Introduction to Data Science in Health and Social Care</title>
+  <link>https://TeachHealthData.github.io/ms-dshsc/msc-courses/implementation-science/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="about-this-course" class="level2">
+<h2 class="anchored" data-anchor-id="about-this-course">About this course</h2>
+<p>Demystify data science, what it is and what it is not. Introduction to core topics in data science generally and data science in the health and social care context. Build your data science toolkit with R programming for data handling/wrangling and visualisation and RMarkdown authoring framework. Apply the data science process throughout the course in the datathon assignments and build the skills and confidence to write R code from scratch. Foundation for future courses in the Data Science programme. Suitable for absolute beginners to R.</p>
+</section>
+<section id="programming" class="level2">
+<h2 class="anchored" data-anchor-id="programming">Programming</h2>
+<p>R</p>
+
+
+</section>
+
+ ]]></description>
+  <category>code</category>
+  <category>data</category>
+  <category>context</category>
+  <guid>https://TeachHealthData.github.io/ms-dshsc/msc-courses/implementation-science/</guid>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
+  <media:content url="https://TeachHealthData.github.io/ms-dshsc/msc-courses/implementation-science/uoe.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Introduction to Databases and Information Systems</title>
@@ -392,7 +392,7 @@
   <category>data</category>
   <category>context</category>
   <guid>https://TeachHealthData.github.io/ms-dshsc/msc-courses/introduction-to-databases/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/ms-dshsc/msc-courses/introduction-to-databases/uoe.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -420,7 +420,7 @@
   <category>stats</category>
   <category>postgraduate</category>
   <guid>https://TeachHealthData.github.io/ms-dshsc/msc-courses/intro-to-statistics/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/ms-dshsc/msc-courses/intro-to-statistics/uoe.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -449,7 +449,7 @@
   <category>context</category>
   <category>postgraduate</category>
   <guid>https://TeachHealthData.github.io/ms-dshsc/msc-courses/natural-language-processing-nlp/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/ms-dshsc/msc-courses/natural-language-processing-nlp/uoe.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -472,7 +472,7 @@
 
  ]]></description>
   <guid>https://TeachHealthData.github.io/short-courses/natural-language-processing-one-in-r-for-health-and-social-care-1/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/short-courses/natural-language-processing-one-in-r-for-health-and-social-care-1/jason-leung-ncLdDcvrcfw-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -495,7 +495,7 @@
 
  ]]></description>
   <guid>https://TeachHealthData.github.io/short-courses/natural-language-processing-one-in-r-for-health-and-social-care-2/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/short-courses/natural-language-processing-one-in-r-for-health-and-social-care-2/NLP2.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -520,7 +520,7 @@
 
  ]]></description>
   <guid>https://TeachHealthData.github.io/short-courses/basics-of-practical-data-science-for-health-and-social-care/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/short-courses/basics-of-practical-data-science-for-health-and-social-care/medical-banner-with-doctor-working-laptop.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -550,7 +550,7 @@
 
  ]]></description>
   <guid>https://TeachHealthData.github.io/short-courses/big-data-analytics/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/short-courses/big-data-analytics/businesswoman-networking-using-digital-devices.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -580,7 +580,7 @@
 
  ]]></description>
   <guid>https://TeachHealthData.github.io/short-courses/data-ethics-for-health-and-social-care/</guid>
-  <pubDate>Thu, 20 Aug 2026 21:32:36 GMT</pubDate>
+  <pubDate>Sat, 05 Sep 2026 12:40:21 GMT</pubDate>
   <media:content url="https://TeachHealthData.github.io/short-courses/data-ethics-for-health-and-social-care/standard-quality-control-collage-concept.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

@@ -1,5 +1,51 @@
 [
   {
+    "listing": "/teaching.html",
+    "items": [
+      "/ms-dshsc/msc-courses/ai-for-care-in-the-digital-age/index.html",
+      "/ms-dshsc/msc-courses/applied-software-development/index.html",
+      "/ms-dshsc/msc-courses/data-ethics/index.html",
+      "/ms-dshsc/msc-courses/data-types-and-structures/index.html",
+      "/ms-dshsc/msc-courses/data-visualisation/index.html",
+      "/ms-dshsc/msc-courses/foundations-of-research-design/index.html",
+      "/ms-dshsc/msc-courses/foundations-of-machine-learning/index.html",
+      "/ms-dshsc/msc-courses/foundations-of-software-development/index.html",
+      "/ms-dshsc/msc-courses/intermediate-r-programming/index.html",
+      "/ms-dshsc/msc-courses/applied-research-design/index.html",
+      "/ms-dshsc/msc-courses/Introduction-to-data-science-in-health-and-social-care/index.html",
+      "/ms-dshsc/msc-courses/implementation-science/index.html",
+      "/ms-dshsc/msc-courses/introduction-to-databases/index.html",
+      "/ms-dshsc/msc-courses/intro-to-statistics/index.html",
+      "/ms-dshsc/msc-courses/natural-language-processing-nlp/index.html",
+      "/short-courses/natural-language-processing-one-in-r-for-health-and-social-care-1/index.html",
+      "/short-courses/natural-language-processing-one-in-r-for-health-and-social-care-2/index.html",
+      "/short-courses/basics-of-practical-data-science-for-health-and-social-care/index.html",
+      "/short-courses/big-data-analytics/index.html",
+      "/short-courses/data-ethics-for-health-and-social-care/index.html",
+      "/short-courses/introduction-to-data-visualisation/index.html",
+      "/short-courses/introduction-to-databases-and-information-systems/index.html",
+      "/short-courses/introduction-to-health-data-analytics-and-r/index.html"
+    ]
+  },
+  {
+    "listing": "/resources.html",
+    "items": [
+      "/resources/hackathon-Feb-2026-ems-math-phs/index.html",
+      "/resources/book-teaching-programming-across-disciplines/index.html",
+      "/resources/pair-programming-community/index.html",
+      "/resources/pair-maker-tool/index.html",
+      "/resources/choose-your-courses-Feb-2026/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/people.html",
+      "/resources.html",
+      "/teaching.html"
+    ]
+  },
+  {
     "listing": "/people.html",
     "items": [
       "/people/brittany-blankinship/index.html",
@@ -46,51 +92,5 @@
   {
     "listing": "/about.html",
     "items": []
-  },
-  {
-    "listing": "/resources.html",
-    "items": [
-      "/resources/pair-programming-community/index.html",
-      "/resources/book-teaching-programming-across-disciplines/index.html",
-      "/resources/choose-your-courses-Feb-2026/index.html",
-      "/resources/hackathon-Feb-2026-ems-math-phs/index.html",
-      "/resources/pair-maker-tool/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/people.html",
-      "/resources.html",
-      "/teaching.html"
-    ]
-  },
-  {
-    "listing": "/teaching.html",
-    "items": [
-      "/ms-dshsc/msc-courses/ai-for-care-in-the-digital-age/index.html",
-      "/ms-dshsc/msc-courses/applied-software-development/index.html",
-      "/ms-dshsc/msc-courses/data-ethics/index.html",
-      "/ms-dshsc/msc-courses/data-types-and-structures/index.html",
-      "/ms-dshsc/msc-courses/data-visualisation/index.html",
-      "/ms-dshsc/msc-courses/foundations-of-research-design/index.html",
-      "/ms-dshsc/msc-courses/foundations-of-machine-learning/index.html",
-      "/ms-dshsc/msc-courses/foundations-of-software-development/index.html",
-      "/ms-dshsc/msc-courses/intermediate-r-programming/index.html",
-      "/ms-dshsc/msc-courses/implementation-science/index.html",
-      "/ms-dshsc/msc-courses/applied-research-design/index.html",
-      "/ms-dshsc/msc-courses/Introduction-to-data-science-in-health-and-social-care/index.html",
-      "/ms-dshsc/msc-courses/introduction-to-databases/index.html",
-      "/ms-dshsc/msc-courses/intro-to-statistics/index.html",
-      "/ms-dshsc/msc-courses/natural-language-processing-nlp/index.html",
-      "/short-courses/natural-language-processing-one-in-r-for-health-and-social-care-1/index.html",
-      "/short-courses/natural-language-processing-one-in-r-for-health-and-social-care-2/index.html",
-      "/short-courses/basics-of-practical-data-science-for-health-and-social-care/index.html",
-      "/short-courses/big-data-analytics/index.html",
-      "/short-courses/data-ethics-for-health-and-social-care/index.html",
-      "/short-courses/introduction-to-data-visualisation/index.html",
-      "/short-courses/introduction-to-databases-and-information-systems/index.html",
-      "/short-courses/introduction-to-health-data-analytics-and-r/index.html"
-    ]
   }
 ]
